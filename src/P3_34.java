@@ -4,7 +4,7 @@ public class P3_34
 {
     public static void main(String[] args)
     {
-
+            //Hej Anders
         double totalDiscount = -1;
 
         Scanner keyboard = new Scanner(System.in);
