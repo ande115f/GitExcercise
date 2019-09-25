@@ -14,7 +14,7 @@ public class P3_31 {
         //calculation of pay
         double payOvertimerWork = 0;
         double pay = hourlyWage * workHours;
-        If (workHours > 40) {
+        if (workHours > 40) {
             double payOvertimeWork = (workHours - 40) * (1.5 * hourlyWage);
         }
 
