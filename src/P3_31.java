@@ -17,10 +17,8 @@ public class P3_31 {
         if (workHours > 40) {
             double payOvertimeWork = (workHours - 40) * (1.5 * hourlyWage);
         }
-
-
-
         double payTotal = pay + payOvertimerWork;
+        System.out.print(payTotal);
 
 
     }
