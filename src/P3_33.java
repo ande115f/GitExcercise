@@ -6,8 +6,8 @@ public class P3_33 {
         //Declaration
 
         int satisfaction = 0;
-        double costOfMeal = 44.99;
         double costWithTip = 0;
+        double costOfMeal = 44.99;
 
         System.out.println("Price without Tip:_____________________________ " + costOfMeal);
         System.out.println("_________________________________________________________");
@@ -26,7 +26,7 @@ public class P3_33 {
             if (satisfaction == 3);
             costWithTip = costOfMeal * 1.10;
 
-        System.out.printf("Your price with a tip according to your satisfaction would be %.2", + costWithTip);
+        System.out.printf("Your price with a tip according to your satisfaction would be %.2f", + costWithTip);
 
         }
     }
