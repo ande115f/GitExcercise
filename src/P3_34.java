@@ -4,14 +4,9 @@ public class P3_34
 {
     public static void main(String[] args)
     {
-<<<<<<< HEAD
 
         // Declarations
         double totalDiscount = 0;
-=======
-            //Hej Anders
-        double totalDiscount = -1;
->>>>>>> be86473f2ecc17dc6b6596a7516f451b948c63e9
 
         Scanner keyboard = new Scanner(System.in);
         System.out.println("Discount calculator!");
