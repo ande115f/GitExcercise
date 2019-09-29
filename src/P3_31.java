@@ -14,13 +14,18 @@ public class P3_31 {
         double workHours = in.nextDouble();
 
         //calculation of pay
-        double payOvertimerWork = 0;
-        double pay = hourlyWage * workHours;
+        double payOvertimeWork = 0;
+        double pay;
 
         if (workHours > 40) {
-            double payOvertimeWork = (workHours - 40) * (1.5 * hourlyWage);
+            payOvertimeWork = (workHours - 40) * (1.5 * hourlyWage);
+            pay = hourlyWage * 40;
         }
-        double payTotal = pay + payOvertimerWork;
+        else {
+            pay = hourlyWage * workHours;
+        }
+
+        double payTotal = pay + payOvertimeWork;
 
         //output paycheck
         System.out.println("------------------------------------");
