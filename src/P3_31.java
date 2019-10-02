@@ -13,7 +13,7 @@ public class P3_31 {
         System.out.print("Please input workhours for the week: ");
         double workHours = in.nextDouble();
 
-        //calculation of pay
+        //calculation of pay and overtimework
         double payOvertimeWork = 0;
         double pay;
 
