@@ -31,8 +31,9 @@ public class P3_31 {
         System.out.println("------------------------------------");
         System.out.println("Paycheck for: "+name);
         System.out.println("Hourly wage: "+hourlyWage+ " Euro");
-        System.out.println("Workhours for the week: "+workHours+" hours");
-        System.out.print("Paycheck for the week in Euro: ");
+        //System.out.println("Workhours for the week: "+workHours+" hours");
+        System.out.printf("Workhours for the week: %.2f", + workHours, " hours");
+        System.out.print("\nPaycheck for the week in Euro: ");
         System.out.printf("%.2f",payTotal);
     }
 }
