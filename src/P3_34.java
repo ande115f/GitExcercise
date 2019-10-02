@@ -42,7 +42,7 @@ public class P3_34
         }
         else
             {
-                System.out.println("You're entitled to a discount coupon of " + (totalDiscount*groceriesPrice) + "$ (That's " + (totalDiscount*100) + "% of your price!");
+                System.out.println("You're entitled to a discount coupon of " + (totalDiscount*groceriesPrice) + "$ (That's " + (totalDiscount*100) + "% of your price!)");
             }
     }
 }
